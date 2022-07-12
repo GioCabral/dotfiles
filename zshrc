@@ -70,3 +70,4 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
